@@ -1,0 +1,60 @@
+[
+  {
+    "level": 1,
+    "gridSize": 6,
+    "kittyPosition": [3, 3],
+    "arrows": [
+      {"x": 1, "y": 3, "dir": "right"},
+      {"x": 2, "y": 1, "dir": "down"},
+      {"x": 4, "y": 2, "dir": "left"}
+    ],
+    "exits": [
+      {"x": 5, "y": 3},
+      {"x": 2, "y": 5},
+      {"x": 0, "y": 2}
+    ]
+  },
+  {
+    "level": 2,
+    "gridSize": 7,
+    "kittyPosition": [3, 3],
+    "arrows": [
+      {"x": 1, "y": 1, "dir": "right"},
+      {"x": 5, "y": 5, "dir": "up"},
+      {"x": 2, "y": 4, "dir": "right"},
+      {"x": 6, "y": 2, "dir": "down"}
+    ],
+    "exits": [
+      {"x": 6, "y": 1},
+      {"x": 5, "y": 0},
+      {"x": 6, "y": 4},
+      {"x": 6, "y": 6}
+    ],
+    "walls": [
+      {"x": 4, "y": 4}
+    ]
+  },
+  {
+    "level": 3,
+    "gridSize": 8,
+    "kittyPosition": [4, 4],
+    "arrows": [
+      {"x": 0, "y": 3, "dir": "right"},
+      {"x": 3, "y": 6, "dir": "up"},
+      {"x": 6, "y": 0, "dir": "down"},
+      {"x": 5, "y": 5, "dir": "left"},
+      {"x": 2, "y": 2, "dir": "down"}
+    ],
+    "exits": [
+      {"x": 7, "y": 3},
+      {"x": 3, "y": 0},
+      {"x": 6, "y": 7},
+      {"x": 0, "y": 5}
+    ],
+    "walls": [
+      {"x": 4, "y": 2},
+      {"x": 4, "y": 5},
+      {"x": 2, "y": 5}
+    ]
+  }
+]

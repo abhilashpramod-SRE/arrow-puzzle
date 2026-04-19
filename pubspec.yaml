@@ -1,0 +1,17 @@
+name: save_kitty
+description: Arrow-based puzzle game to rescue the kitty.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/levels/levels.json
